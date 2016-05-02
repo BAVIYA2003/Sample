@@ -1,3 +1,4 @@
+import os
 from flask import Flask, request, render_template
 from twitter_app import get_followers, update_weekly_and_hourly_stats
 app = Flask(__name__, template_folder="templates")
@@ -19,4 +20,5 @@ def index():
                            username=username)
 
 if __name__ == '__main__':
-    app.run(threaded=True, debug=True)
+    port = int(os.environ.get('PORT', 5000))
+    app.run(threaded=True, port=port)
