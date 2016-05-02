@@ -113,7 +113,7 @@ def get_followers(user_name):
 
 def update_weekly_and_hourly_stats(tweets_time):
     weekly_status = {}
-    
+
     for tweet_time in tweets_time:
         day = tweet_time.strftime("%A")
         count = 0
