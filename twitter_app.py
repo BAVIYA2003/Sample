@@ -11,7 +11,7 @@ import operator
 
 from Queue import Queue
 # import get_all_tweets
-dotenv_path = join(dirname(__file__), '.env')
+dotenv_path = join(dirname(__file__), 'env')
 dotenv = Dotenv(dotenv_path)
 os.environ.update(dotenv)
 # load_dotenv(dotenv_path)

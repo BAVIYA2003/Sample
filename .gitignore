@@ -64,9 +64,7 @@ xamcheck_feedback/static/generated_files
 .isort.cfg
 
 
-bower_components/
 
-xamcheck_feedback/media/
 
 celerybeat-schedule
 
