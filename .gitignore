@@ -7,7 +7,6 @@ __pycache__/
 
 # Distribution / packaging
 .Python
-env/
 build/
 develop-eggs/
 dist/
@@ -64,7 +63,6 @@ xamcheck_feedback/static/generated_files
 # isort config
 .isort.cfg
 
-.env
 
 bower_components/
 
