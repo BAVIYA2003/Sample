@@ -19,4 +19,4 @@ def index():
                            username=username)
 
 if __name__ == '__main__':
-    app.run(threaded=True, debug=True, port=5006)
+    app.run(threaded=True, debug=True)
