@@ -1,4 +1,3 @@
-# Twitter-Followers-Analysis
 The Assignment is done python. So if python is not installed please install it.
 
 Steps for set up:

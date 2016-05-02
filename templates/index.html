@@ -1,0 +1,41 @@
+<html>
+	<body>
+  		<h1> Twitter </h1>
+  		<form action="{{ url_for('index') }}" method="post" enctype='multipart/form-data'>
+	  		<label for="username"> Username </label>
+	  		<input type="text" name="username"/>
+	  		<button type="submit">Submit</button>
+  		</form>
+        {% if weekly_status %}
+        <strong> User:  {{ username }} </strong>
+        <br/>
+        <strong> Best Time To Tweet!! </strong>
+        <br/>
+        <strong> {{ weekly_status[0][0][0] }} - {{ weekly_status[0][0][1] }} </strong>
+        <br/>
+        <br/>
+        <strong><----- Detail Analysis-----> </strong>
+        <table border="1" style="width:100%">
+            <tr>
+                <th> Day</th>
+                <th> Time</th>
+                <th> Tweet Count</th>
+            </tr>
+            {% for stat in weekly_status %}
+            <tr>
+                <td>
+                    {{ stat[0][0] }}
+                </td>
+                <td>
+                    {{ stat[0][1] }}
+                </td>
+                <td>
+                    {{ stat[1] }}
+                </td>
+            </tr>
+             {% endfor %}
+        </table>
+        <br/>
+        {% endif %}
+	</body>
+</html>
