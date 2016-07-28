@@ -1,5 +1,5 @@
 # Twitter-Followers-Analysis
-The Assignment is done python. So if python is not installed please install it.
+The Assignment is done in python. So if python is not installed please install it.
 
 Steps for set up:
 1) Create a virtual environment.
