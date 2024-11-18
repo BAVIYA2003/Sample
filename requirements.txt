@@ -21,4 +21,4 @@ simplegeneric==0.8.1
 six==1.16.0  # Updated to a more recent version
 traitlets==5.9.0  # Updated to be compatible with ipython
 tweepy==4.10.1  # Updated to a more recent version of tweepy
-Werkzeug==2.3.0  # Updated for compatibility with Flask 2.x
+Werkzeug==2.3.3  # Updated for compatibility with Flask 2.x
